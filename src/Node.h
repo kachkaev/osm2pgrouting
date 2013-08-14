@@ -21,6 +21,8 @@
 #ifndef NODE_H
 #define NODE_H
 
+typedef unsigned short ushort;
+
 namespace osm
 {
 

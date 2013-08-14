@@ -31,6 +31,8 @@
 #include "Class.h"
 #include "Configuration.h"
 
+typedef unsigned short ushort;
+
 using namespace osm;
 
 /**
