@@ -1,3 +1,30 @@
+=========================
+FORK DETAILS
+=========================
+
+This fork contans changes that allow building osm2pgrouting on Mac OS X (tested on 10.8).
+
+The steps are the following:
+
+0. Make sure you have macports installed (‘port’ command should work in the terminal)
+1. Install ‘boost’ using macports
+    sudo port install boost
+2. Clone the repo to any directory
+    cd /path
+    git clone git@github.com:kachkaev/osm2pgrouting.git
+    cd ./osm2pgrouting
+3. Run ‘make’ command
+    make
+
+That’s it! Now you’ve got a runnable file called osm2pgrouting inside your osm2pgrouting directory.
+
+Alternatively, you can download a precompiled runnable file to avoid all these steps, but there is less guarantee that it will work. You can find it in the ‘dist’ directory of the repo.
+
+
+=========================
+ORIGINAL README
+=========================
+
 Before you can use this tool for importing Openstreetmap data,
 you need to install
 
