@@ -1,4 +1,4 @@
 bin/*
-osm2pgrouting
+/osm2pgrouting
 *.o
 *~
